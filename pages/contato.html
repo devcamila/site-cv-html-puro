@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Camila</title>
+</head>
+
+<body align="center">
+    <font color="#8EC07C">
+        <h1>Contato</h1>
+    </font>
+    <p>Envie sua mensagem e retornarei em breve!</p>
+    <hr color="#8EC07C">
+    <br>
+    <form>
+        <label for="name">Nome: </label><input type="text" id="name" name="nome" placeholder="Seu Nome"><br>
+        <br>
+        <label for="email">Email: </label><input type="email" name="email" placeholder="Seu Email"><br>
+        <br>
+        <label for="tel">Celular: </label><input type="tel" name="tel" placeholder="(xx)99999-9999"><br>
+        <br>
+        <label for="text">Mensagem: </label><br>
+        <textarea name="text" id="" cols="30" rows="5" placeholder="Sua Mensagem!"></textarea>
+        <br>
+        <button onclick="Resposta()">Enviar</button>
+    </form>
+    <br>
+    <hr color="#EBDBB2">
+    <br>
+    <footer align="center">
+        <a href="https://github.com/devcamila" target="_blank" text-decoration="none">GitHub</a>
+        <a href="https://www.linkedin.com/in/camila-lacerda/" target="_blank">Linkedin</a>
+        <a href="./index.html">Voltar ao Currículo</a></footer>
+    </footer>
+    <br>
+    <script>
+        function Resposta() {
+            let nome = document.getElementById("name");
+
+            if (nome.value != '') {
+                alert('Obrigada pela mensagem, ' + nome.value + '. Logo, receberá uma resposta!')
+            } else {
+                alert('Prencha todos os campos')
+            }
+        }
+    </script>
+</body>
+
+</html>
