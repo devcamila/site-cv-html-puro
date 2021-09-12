@@ -9,23 +9,29 @@
 </head>
 
 <body align="center">
-    <font color="#8EC07C">
+    <font color="#689D6A">
         <h1>Contato</h1>
     </font>
     <p>Envie sua mensagem e retornarei em breve!</p>
-    <hr color="#8EC07C">
+    <hr color="#689D6A">
     <br>
-    <form>
-        <label for="name">Nome: </label><input type="text" id="name" name="nome" placeholder="Seu Nome"><br>
+    <form action="mailto:camilacerda3@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nome: </label><input type="text" name="nome" placeholder="Seu Nome"><br>
         <br>
         <label for="email">Email: </label><input type="email" name="email" placeholder="Seu Email"><br>
         <br>
         <label for="tel">Celular: </label><input type="tel" name="tel" placeholder="(xx)99999-9999"><br>
         <br>
-        <label for="text">Mensagem: </label><br>
-        <textarea name="text" id="" cols="30" rows="5" placeholder="Sua Mensagem!"></textarea>
-        <br>
-        <button onclick="Resposta()">Enviar</button>
+        <div>
+            <label for="radio">Posso te enviar novidades?</label><br>
+            <input type="radio" name="radio">Sim</input>
+            <input type="radio" name="radio" off="0" value="off">Não</input>
+            <br>
+            <br>
+            <label for="text">Mensagem: </label><br>
+            <textarea name="text" id="" cols="30" rows="5" placeholder="Sua Mensagem!"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
     </form>
     <br>
     <hr color="#EBDBB2">
@@ -36,7 +42,7 @@
         <a href="./index.html">Voltar ao Currículo</a></footer>
     </footer>
     <br>
-    <script>
+    <!-- <script> 
         function Resposta() {
             let nome = document.getElementById("name");
 
@@ -46,7 +52,7 @@
                 alert('Prencha todos os campos')
             }
         }
-    </script>
+    </script>  -->
 </body>
 
 </html>
