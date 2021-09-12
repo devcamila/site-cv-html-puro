@@ -2,6 +2,11 @@
 Site construído durante aula do curso de Web Full-Stack da Let's Code, com a Professora Larissa Queiroz.<br>
 O objetivo era criar um site usando apenas HTML puro. <br>
 
+--- 
+<div align="center">
+<strong>Acesse o projeto aqui</strong> ➡️ https://site-cv-html-puro.vercel.app/
+</div>
+
 ---
 [![0K9z0.jpg](https://i.im.ge/2021/08/09/0K9z0.jpg)](https://im.ge/i/0K9z0)
 
